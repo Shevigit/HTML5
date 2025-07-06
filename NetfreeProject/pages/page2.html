@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/stylesheet1.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/stylesheet2.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/stylesheet3.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/stylesheet4-responsivy.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/stylesheet5-responsivy.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../style/stylesheet6-animation.css'>
+    <script src='main.js'></script>
+</head>
+
+<body dir="rtl">
+    <nav>
+        <div class="divnav1"><img class="logonav" src="../images/logo-nav.svg"></div>
+        <div class="divnav2"><label class="navlanguage1">עבר</label><label class="navlanguage2">|</label><label
+                class="navlanguage1">eng</label></div>
+        <div id="link">
+            <hr id="hr1">  
+            <a href="../pages/page1.html #footer"><label class="textnav">צור קשר</label></a>
+            <a><label class="textnav">אזור אישי</label></a>
+            <a href="../pages/page4.html"><label class="textnav">מדריכים</label></a>
+            <a href="../pages/page1.html #section8"><label class="textnav">פורום</label></a>
+            <a href="../pages/page1.html #section7"><label class="textnav">הצטרפות אלינו</label></a>
+            <a href="../pages/page1.html #section3"><label class="textnav">אודות</label></a>
+            <a href="../pages/page1.html #header"><label class="textnav">ראשי</label> </a>
+        </div>
+    </nav>
+    <section class="sectionforum">
+        <div class="divforum1">
+            <img src="../images/forum1.png" class="forum1">
+        </div>
+        <div id="borderdivquestion">
+            <div class="divquestion">
+                <form action="page3.html" method="post">
+                    <legend>
+                        <h1 class="headertextforum">טופס רישום לפורום</h1>
+                    </legend>
+                    <label class="textinput">שם משתמש:</label>
+                    <input type="text" id="firstname" placeholder="שם משתמש" required="required"><br><br>
+                    <label class="textinput">מספר זהות:</label>
+                    <input type="number" id="id" placeholder="מספר זהות" minlength="9" maxlength="9"
+                        required="required"><br><br>
+                    <label class="textinput">תאריך לידה:</label>
+                    <input type="date" id="date" placeholder="תאריך לידה" required="required"><br><br>
+                    <label class="textinput">דואר אלקטרוני:</label>
+                    <input type="email" id="mail" placeholder="דואר אלקטרוני" required="required"><br><br>
+                    <label class="textinput">טלפון:</label>
+                    <input type="tel" id="tel" dir="rtl" placeholder="מספר טלפון" minlength="9" maxlength="10"
+                        required="required"><br><br>
+                    <label class="textinput">סיסמה:</label>
+                    <input type="password" id="code" placeholder="סיסמה" minlength="4" required="required"><br><br>
+                    <label class="textinput">עיר:</label>
+                    <select name="city" placeholder="עיר" required="required">
+                        <option> </option>
+                        <option>מודיען עילית</option>
+                        <option>ירושלים</option>
+                        <option>בני ברק</option>
+                        <option>תל אביב</option>
+                        <option>חיפה</option>
+                        <option>טבריה</option>
+                        <option>אלעד</option>
+                        <option>ביתר</option>
+                        <option>רמת גן</option>
+                        <option>בית שמש</option>
+                        <option>צפת</option>
+                        <option>אופקים</option>
+                    </select><br><br>
+                    <input type="checkbox" class="checkbox" required="required"><label>אני לא רובוט</label><br><br>
+                    <input type="submit" id="submit" value="שמור ושלח" ><br><br>
+            </div>
+            </form>
+            </div>
+        </div>
+        <div class="divforum2">
+            <img src="../images/forum2.png" class="forum2">
+        </div>
+    </section>
+</body>
+
+</html>

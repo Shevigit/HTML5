@@ -1,0 +1,335 @@
+@media(max-width:800px) {
+
+    nav,
+    .back,
+    .next,
+    .img-computer,
+    .logo-header1,
+    .logo-header2,
+    .divcomputer,
+    .computerhow1,
+    .text1theader2,
+    .backgroundwhite,
+    .backgroundforum,
+    .computerhow {
+        display: none;
+    }
+
+    .text1header1 {
+        font-size: 230%;
+        margin-top: 11%;
+        margin-right: 20%;
+    }
+
+    .text1header3 {
+        font-size: large;
+        margin-top: 30%;
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+    .text2header1 {
+        font-size: 230%;
+        margin-top: 11%;
+        margin-right: 20%;
+    }
+    .text2header3 {
+        font-size: large;
+        margin-top: 30%;
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+    .text3header1 {
+        font-size: 230%;
+        margin-top: 11%;
+        margin-right: 20%;
+    }
+
+
+
+    .text3header3 {
+        font-size: large;
+        margin-top: 30%;
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+
+    header {
+        margin-top: 0;
+    }
+
+    .section1 {
+        display: inline-block;
+        flex-flow: column wrap;
+    }
+
+    .firsttext1,
+    .firsttext4,
+    .firsttext3,
+    .firsttext2 {
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    .bigcontainer1,
+    .bigcontainer2,
+    .bigcontainer3 {
+        width: 100%;
+    }
+
+    .bigcontainer2,
+    .bigcontainer3 {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .bigcontainer2 {
+        margin-top: 20%;
+    }
+
+    .section2 {
+        display: inline-block;
+        flex-flow: column wrap;
+        height: 200vh;
+    }
+
+    h2 {
+        margin-right: 20%;
+
+    }
+
+    .abovediv1,
+    .abovediv2,
+    .abovediv3,
+    .abovediv4,
+    .abovediv5,
+    .abovediv6,
+    .abovediv8,
+    .abovediv9 {
+        margin-right: 43%;
+    }
+
+    .container1,
+    .container2 {
+        margin-right: 0;
+        margin-top: 10%;
+    }
+
+    .netfree-numbers {
+        width: 92%;
+    }
+
+    .section3 {
+        display: inline-block;
+        flex-flow: column wrap;
+        height: 120vh;
+    }
+
+    .texthowwork {
+        margin-right: 0;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  
+    .section4 {
+        height: 170vh;
+    }
+
+    .section5 {
+        height: 35vh;
+    }
+
+    .video {
+        width: 95%;
+        margin-top: 25%;
+    }
+
+    .textvideo {
+        font-size: medium;
+        margin-top: 8%;
+    }
+
+    .abovediv3 {
+        margin-top: 0;
+    }
+
+    .section6 {
+        height: 120vh;
+        display: inline-block;
+        flex-flow: column wrap;
+    }
+
+    .newprogram1,
+    .newprogram2,
+    .newprogram3 {
+        width: 100%;
+        margin-top: 20%;
+        margin: 0;
+    }
+
+    .newprogram1 {
+        margin-top: 40%;
+    }
+
+    .section7 {
+        height: 330vh;
+    }
+
+    .containerjoining {
+        height: 120vh;
+        display: inline-block;
+        flex-flow: column wrap;
+    }
+
+    .divjoining {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .divjoining2 {
+        margin-right: 10%;
+    }
+
+    .divjoining:nth-child(2) .divjoining2:nth-child(2) {
+        margin-right: 8%;
+
+    }
+
+    .containerjoining:nth-child(2) .divjoining:nth-child(1),
+    .containerjoining:nth-child(2) .divjoining:nth-child(2),
+    .containerjoining:nth-child(2) .divjoining:nth-child(3),
+    .containerjoining:nth-child(2) .divjoining:nth-child(4),
+    .containerjoining:nth-child(2) .divjoining:nth-child(5) {
+        height: 30%;
+        margin-bottom: 5%;
+
+    }
+
+    .containerjoining:nth-child(2) .divjoining:nth-child(6),
+    .containerjoining:nth-child(2) .divjoining:nth-child(7),
+    .containerjoining:nth-child(2) .divjoining:nth-child(8) {
+        height: 20%;
+        margin-bottom: 5%;
+    }
+
+    .img-joining1,
+    .img-joining2,
+    .img-joining3,
+    .img-joining4,
+    .img-joining5,
+    .img-joining6,
+    .img-joining7,
+    .img-joining8 {
+        width: 100%;
+        height: 20vh;
+        margin: 5%;
+    }
+
+    .section8 {
+        height: 80vh;
+    }
+
+    .passforum {
+        width: 30%;
+        margin-top: 90%;
+        margin-right: 0;
+    }
+
+    .a {
+        margin-left: 33%;
+    }
+
+    .sectionleader {
+        margin-top: 0;
+        height: 600vh;
+        display: inline-block;
+        flex-flow: column wrap;
+    }
+    .Contact{
+        margin-top: 6%;
+        margin-right: 37%;
+    }
+    .abovediv9 {
+        margin-right: 42%;
+    }
+
+    .backgroundforum {
+        margin-top: 0;
+    }
+
+    footer {
+        height: 180vh;
+    }
+
+    .divleader1,
+    .divleader {
+        width: 90%;
+        margin: 6%;
+    }
+
+    .vikinetfreeheader {
+        margin-top: 0;
+        line-height: 100%;
+    }
+
+    .textleader {
+        color: rgb(26, 179, 148);
+        font-family: Calibri;
+        font-size: xx-large;
+        margin-right: 38%;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+        display: flex;
+    }
+
+    .textleader1 {
+        color: rgb(76, 90, 87);
+        font-family: Calibri;
+        font-size: large;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+        margin-right: 43%;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .passforum {
+        position: absolute;
+        margin-top: 130%;
+    }
+
+    .section9 {
+        height: 5vh;
+    }
+
+    #borderdivquestion {
+        margin-top: 1px;
+        width: 95%;
+        height: 95%;
+    }
+
+    .divquestion {
+        margin-top: 1px;
+        width: 95%;
+        height: 95%;
+    }
+
+    .forum2 {
+        display: none;
+    }
+
+    .divforum2,
+    .divforum1 {
+        display: none;
+    }
+    .section6 :nth-child(3){
+        animation:none  ;
+    }
+    .section6 :nth-child(4){
+    
+     animation: none;
+    }
+    .section6 :nth-child(5){
+    
+     animation: none;
+    }
+}

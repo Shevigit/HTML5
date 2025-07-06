@@ -1,0 +1,165 @@
+@keyframes backgroundheader {
+    0% {
+        background-image: url(../images/img-header1.jpg);
+    }
+
+    33% {
+        background-image: url(../images/img-header3.jpg);
+    }
+
+    66% {
+        background-image: url(../images/img-header2.jpg);
+    }
+}
+
+@keyframes bigcontaineranimation {
+
+    5% {
+        transform: scale(0.75, 0.75);
+    }
+}
+
+@keyframes textnewprogramanimation1 {
+    0% {
+        transform: translate(20px);
+    }
+
+    20% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes textnewprogramanimation2 {
+    0% {
+        transform: scale(0.95, 0.95);
+    }
+
+    20% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes textnewprogramanimation3 {
+    0% {
+        transform: translate(-20px);
+    }
+
+    20% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes textforumamanimation {
+    0% {
+        transform: scale(0.95, 0.95);
+    }
+
+    20% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes logo-headeranimation {
+    5% {
+        transform: scale(-1, 1);
+    }
+
+    10% {
+        transform: scale(1, 1);
+    }
+
+    15% {
+        transform: none;
+    }
+}
+
+@keyframes backgroundheadertext1white {
+    0% {
+        opacity: 0.7;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+}
+
+@keyframes backgroundheadertext1 {
+    0% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+}
+
+@keyframes backgroundheadertext2 {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+}
+
+@keyframes backgroundheadertext3 {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 1;
+    }
+}
+
+@keyframes backgroundcomputer {
+    0% {
+        background-position: top;
+    }
+
+    33% {
+        background-position: center;
+    }
+
+    66% {
+        background-position: bottom;
+    }
+}
+
+@keyframes move1 {
+    0% {
+        transform:translate(1000px) ;
+        direction: rtl;
+    }
+
+    100% {
+       transform: skew(0px);
+    }
+}
+/* @keyframes mov2e {
+    0% {
+        transform:translate(-1000px) ;
+        direction: rtl;
+    }
+
+    100% {
+       transform: skew(0px);
+    }
+} */

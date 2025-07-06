@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 9vh;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    /*על פי המתרגלת */
+    top: 0;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+header {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/img-header1.jpg);
+    margin-top: 8vh;
+    display: flex;
+    align-content: center;
+    animation: backgroundheader 15s 5s infinite;
+}
+
+
+.section1 {
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.section2 {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.section3 {
+    width: 100%;
+    height: 90Vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.section4 {
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.section5 {
+    width: 100%;
+    height: 90vh;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6 {
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.section7 {
+    width: 100%;
+    height: 200vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+.section8 {
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(26, 179, 148);
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+.section8:hover :nth-child(4){
+    animation: textforumamanimation 5s  forwards;
+}
+.section9 {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 115vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.sectionforum{
+    width: 100%;
+    height: 100vh;
+    background-color:   #f4f4f4;
+    display: flex;
+}
+.sectionleader{
+    
+    width: 100%;
+    height:200vh;
+    background-color: #f4f4f4;
+    display: flex;
+  margin-top: 9vh;
+    flex-direction:row;
+    flex-wrap: wrap;
+align-content: space-evenly;
+justify-content: center;
+align-items: center;
+}
+

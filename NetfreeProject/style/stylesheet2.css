@@ -1,0 +1,707 @@
+.divnav1 {
+    width: 6.5%;
+    height: 5%;
+    background-color: rgb(26, 179, 148);
+    position: fixed;
+    border-radius: 7px;
+    margin-top: 2vh;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.divnav1:hover {
+    background-color: rgb(23, 170, 140);
+}
+
+#hr1 {
+    position: absolute;
+    background-color: rgb(26, 179, 148);
+    width: 3%;
+    height: 0.5vh;
+    margin-top: 0;
+    margin-right: 56%;
+}
+
+.logonav {
+    width: 80%;
+    height: 80%;
+}
+
+#link {
+    margin-left: 10%;
+}
+
+.divnav2 {
+    width: 5.5%;
+    height: 5%;
+    background-color: white;
+    position: fixed;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-right: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.navlanguage1 {
+    font-family: Calibri;
+    color: #3083cb;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+.navlanguage1:hover {
+
+    color: #07199e;
+
+}
+
+.navlanguage2 {
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(76, 90, 87);
+    cursor: pointer;
+}
+
+.textnav {
+    color: rgb(76, 90, 87);
+    float: left;
+    margin: 2vh;
+    font-family: Calibri;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.textnav:hover {
+    color: rgb(26, 179, 148);
+    float: left;
+}
+
+.img-computer {
+    width: 35%;
+    height: 44%;
+    position: absolute;
+    z-index: 2;
+    animation: backgroundheadertext1 15s infinite step-end;
+}
+
+.backgroundwhite {
+    position: absolute;
+    /* overflow: hidden; */
+    width: 26.5%;
+    height: 36%;
+    margin-right: 4.4%;
+    margin-top: 12.5%;
+    border-radius: 5%;
+    opacity: 0.7;
+    z-index: 1;
+    animation: backgroundheadertext1white 15s infinite step-end;
+}
+
+.divcomputer {
+    z-index: 2;
+    margin-top: 11%;
+    margin-right: 20%;
+    animation: backgroundheadertext1 15s infinite step-end;
+}
+
+.images {
+    z-index: 0;
+    width: 640px;
+    height: 378px;
+    animation: backgroundheadertext1 15s infinite step-end;
+}
+
+.logo-header1 {
+    width: 20%;
+    margin-top: 46%;
+    margin-right: 40%;
+    z-index: 1;
+    position: relative;
+    animation: backgroundheadertext1 15s infinite step-end;
+    animation: logo-headeranimation 5s alternate forwards;
+}
+
+.logo-header2 {
+    width: 50%;
+    margin-right: 24%;
+    z-index: 2;
+    position: relative;
+    animation: backgroundheadertext1 15s infinite step-end;
+}
+
+.button1,
+.button {
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    background: none;
+    height: 10px;
+    width: 10px;
+    margin: 3px;
+    margin-top: 55vh;
+}
+
+.button1 {
+    margin-right: 24%;
+}
+
+.button1,
+.button:hover {
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    height: 12px;
+    width: 12px;
+}
+
+.abovediv1 {
+    background-color: rgb(26, 179, 148);
+    width: 70px;
+    height: 2px;
+    margin-top: 10.75vh;
+    position: absolute;
+    margin-bottom: 5vh;
+
+}
+
+.netfree-numbers {
+    width: 35vw;
+    height: 32vh;
+    margin-right: 4.85vw;
+}
+
+
+.bigcontainer1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 12vh;
+    margin-top: 20vh;
+    background-color: white;
+}
+
+.bigcontainer2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 20vh;
+}
+
+.section2:hover :nth-child(3) {
+    animation: bigcontaineranimation 5s forwards;
+}
+
+.section2:hover :nth-child(4) {
+    animation: bigcontaineranimation 5s forwards;
+}
+
+.section2:hover :nth-child(5) {
+    animation: bigcontaineranimation 5s forwards;
+}
+
+.section2:hover :nth-child(6) {
+    animation: bigcontaineranimation 5s forwards;
+}
+
+.section2:hover :nth-child(7) {
+    animation: bigcontaineranimation 5s forwards;
+}
+
+.section2:hover :nth-child(8) {
+    animation: bigcontaineranimation 5s forwards;
+}
+
+.bigcontainer3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 12vh;
+    margin-top: 20vh;
+    background-color: white;
+}
+
+
+.container1 {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-right: 10vw;
+}
+
+.container2 {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+.divhowwork {
+    width: 42.3vw;
+    height: 100vh;
+    margin-top: 15%;
+    float: right;
+    animation: move1 3.5s forwards;
+}
+
+.computerhowwork {
+    width: 52.7vw;
+    height: 100vh;
+    margin-top: 13%;
+    float: left;
+    animation: move1 3.5s forwards;
+}
+
+.computerhow1 {
+
+    width: 400px;
+    height: 269px;
+    margin-right: 5.3%;
+    margin-top: 8.5%;
+    perspective: 650px;
+    vertical-align: top;
+    border-bottom-right-radius: 19%;
+    transform: rotateX(-19deg) rotatey(30deg) rotatez(-5deg) skewx(-1deg)skewy(21deg) ;
+    position: absolute;
+    perspective: 650px;
+    background-image: url(../images/imagescomputer.jpg);
+    background-size: cover;
+    z-index: 0;
+    padding: 14px;
+    /* animation: move2 3.5s forwards; */
+    animation: backgroundcomputer 50s infinite alternate-reverse;
+}
+
+.computerhow {
+    width: 450px;
+    height: 450px;
+    margin-right: 5%;
+    margin-top: 3%;
+    z-index: 1;
+    position: absolute;
+    /* animation: move1 3.5s forwards; */
+}
+
+.abovediv2 {
+    background-color: rgb(26, 179, 148);
+    width: 70px;
+    height: 2px;
+    margin-top: 10.75vh;
+    position: absolute;
+    margin-bottom: 5vh;
+}
+
+
+.video {
+    width: 70%;
+    margin-top: 5vh;
+}
+
+.abovediv3 {
+    background-color: rgb(26, 179, 148);
+    width: 60.5px;
+    height: 2px;
+    margin-top: 19vh;
+    margin-right: 44.5%;
+    margin-bottom: 5vh;
+    position: absolute;
+    margin-left: 45%;
+    margin-bottom: 45%;
+}
+
+
+.abovediv4 {
+    background-color: rgb(26, 179, 148);
+    width: 68px;
+    height: 2px;
+    margin-top: 8vh;
+    margin-bottom: 99%;
+    margin-right: 30%;
+    margin-bottom: 5vh;
+    position: absolute;
+    margin-left: 30%;
+    margin-bottom: 100%;
+}
+
+.abovediv5 {
+    background-color: rgb(26, 179, 148);
+    width: 68px;
+    height: 2px;
+    margin-top: 8vh;
+    margin-bottom: 99%;
+    margin-right: 30%;
+    margin-bottom: 5vh;
+    position: absolute;
+    margin-left: 30%;
+    margin-bottom: 100%;
+}
+
+
+
+.abovediv6 {
+    background-color: rgb(26, 179, 148);
+    width: 68px;
+    height: 2px;
+    margin-top: 11vh;
+    margin-bottom: 99%;
+    margin-right: 30%;
+    margin-bottom: 5vh;
+    position: absolute;
+    margin-left: 30%;
+    margin-bottom: 100%;
+}
+
+.abovediv9 {
+    background-color: rgb(26, 179, 148);
+    width: 60px;
+    height: 2px;
+    margin-top: 4vh;
+    position: absolute;
+    margin-right: 14%;
+}
+
+.containerjoining {
+
+    height: 76%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divjoining {
+    background-color: white;
+    width: 38vw;
+    height: 20vh;
+    margin: 1vw;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(1) {
+    height: 30vh;
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(2) {
+    height: 37vh;
+
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(3) {
+    height: 40vh;
+
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(4) {
+    height: 24vh;
+
+
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(5) {
+    height: 30vh;
+
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(6) {
+    height: 24vh;
+
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(7) {
+    height: 23vh;
+
+}
+
+.containerjoining:nth-child(2) .divjoining:nth-child(8) {
+    height: 23vh;
+
+}
+
+.img-joining1 {
+    width: 10vw;
+    height: 18vh;
+    margin: 5%;
+}
+
+.img-joining2 {
+    width: 10vw;
+    height: 8vh;
+    margin: 5%;
+}
+
+.img-joining3 {
+    width: 10vw;
+    height: 19vh;
+    margin: 5%;
+}
+
+.img-joining4 {
+    width: 10vw;
+    height: 17vh;
+    margin: 5%;
+}
+
+.img-joining5 {
+    width: 10vw;
+    height: 20vh;
+    margin: 5%;
+}
+
+.img-joining6 {
+    width: 10vw;
+    height: 19vh;
+    margin: 5%;
+}
+
+.img-joining7 {
+    width: 10vw;
+    height: 18vh;
+    margin: 5%;
+}
+
+.img-joining8 {
+    width: 10vw;
+    height: 18vh;
+    margin: 5%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    ;
+    display: inline;
+}
+
+.divjoining2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    float: right;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.divjoining1 {
+    width: 30%;
+    height: 100%;
+    float: right;
+
+}
+
+.divjoining:nth-child(2) .divjoining2:nth-child(1),
+.divjoining:nth-child(2) .divjoining2:nth-child(2),
+.divjoining:nth-child(2) .divjoining2:nth-child(3),
+.divjoining:nth-child(2) .divjoining2:nth-child(4) {
+    margin-right: 2%;
+
+}
+
+.abovediv8 {
+    background-color: white;
+    width: 68px;
+    height: 2px;
+    margin-top: 10vh;
+    margin-bottom: 99%;
+    margin-right: 30%;
+    margin-bottom: 5vh;
+    position: absolute;
+    margin-left: 30%;
+    margin-bottom: 100%;
+    animation: textforumamanimation 5s forwards;
+}
+
+.backgroundforum {
+    width: 95vw;
+    height: 50vh;
+    position: absolute;
+    margin-right: 3.5%;
+    margin-top: 0.05%;
+}
+
+.passforum {
+    width: 10vw;
+    height: 6vh;
+    font-size: large;
+    background-color: white;
+    color: rgb(26, 179, 148);
+    border-radius: 3%;
+    border: none;
+    position: absolute;
+    margin-top: 51vh;
+    flex-wrap: nowrap;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.a {
+    margin-left: 10vw;
+}
+
+
+.backgroundfooter {
+    width: 50vw;
+    position: absolute;
+
+}
+
+#borderdivquestion {
+    width: 40%;
+    height: 79%;
+    background-color: white;
+    border-radius: 1%;
+    display: flex;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divquestion {
+    width: 24%;
+    height: 77%;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    border-width: 4px;
+    border-color: rgb(26, 179, 148);
+    border-style: solid;
+    border-radius: 1%;
+    color: rgb(76, 90, 87);
+    font-family: Calibri;
+    margin-top: 1%;
+    margin-right: 0.75%;
+    margin-top: 0.5%;
+}
+
+.forum2 {
+    width: 30vw;
+    height: 50vh;
+}
+
+.divforum2,
+.divforum1 {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.divforum1 {
+    margin-left: 7vw;
+    margin-top: 9vh;
+}
+
+.divforum2 {
+    margin-right: 7vw;
+    margin-top: 9vh;
+}
+
+.forum1 {
+    width: 30vw;
+    height: 50vh;
+
+}
+
+.divsumbit {
+    width: 50px;
+    height: 20px;
+}
+
+
+.divleader {
+    width: 30vw;
+    height: 60vh;
+    background-color: white;
+    margin: 1%;
+    box-shadow: 0 2px 5px rgb(26, 179, 148);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+
+}
+
+.sectionleader:nth-child(2) .divleader:nth-child(2n) {
+    background-color: rgb(26, 179, 148);
+    box-shadow: 0 2px 5px rgb(76, 90, 87);
+}
+
+.divleader1 {
+    width: 30vw;
+    height: 60vh;
+    background-color: white;
+    margin: 1%;
+    /* background-color: rgb(26, 179, 148); */
+    justify-content: center;
+    border-radius: 3%;
+    box-shadow: 0 2px 5px rgb(76, 90, 87);
+}
+
+.bi-shield-shaded,
+.bi-123,
+.bi-question-circle-fill,
+.bi-funnel-fill,
+.bi-check-circle-fill {
+    color: rgb(26, 179, 148);
+    font-size: 100px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    margin-right: 5%;
+}
+
+.bi-shield-shaded:hover,
+.bi-check-circle-fill:hover,
+.bi-123:hover,
+.bi-question-circle-fill:hover,
+.bi-funnel-fill:hover {
+    color: white;
+    text-shadow: 0 3px 10px rgb(26, 179, 148);
+}
+
+.bi-shield-fill-exclamation,
+.bi-send,
+.bi-cone-striped,
+.bi-plus-circle-fill {
+    color: white;
+    margin-right: 5%;
+    font-size: 100px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.bi-123 {
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+.bi-send:hover,
+.bi-shield-fill-exclamation:hover,
+.bi-cone-striped:hover,
+.bi-plus-circle-fill:hover {
+    color: rgb(26, 179, 148);
+    ;
+    font-size: 100px;
+    text-shadow: 0 3px 10px white;
+}
