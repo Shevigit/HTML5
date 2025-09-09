@@ -28,7 +28,7 @@ Git & GitHub – Version control, collaboration, and code management
 
 Clone the repository:
 
-git clone https://github.com/your-username/NetfreeProject.git
+git clone https://github.com/Shevigit/HTML5.git
 Open index.html in your preferred browser to view the website locally.
 
 🌍 Deployment Options
