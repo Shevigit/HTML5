@@ -1,5 +1,12 @@
 # NetFreeProject – HTML & CSS Portfolio Project
 
+## 🌟 Live Demo
+View the live website deployed on **Netlify**:  
+
+# **[https://html5-netfree.netlify.app](https://html5-netfree.netlify.app)**
+
+---
+
 ## 📖 Project Overview
 NetfreeProject is a static website built to demonstrate practical skills in HTML5 and CSS3. The project showcases a clean and responsive design, proper folder organization, and integration of external libraries for enhanced user experience.
 
@@ -8,6 +15,8 @@ The website features:
 - Custom styling tailored for readability and aesthetics  
 - Icon integration using Bootstrap Icons  
 - Fully responsive design for both desktop and mobile devices  
+
+---
 
 ## 📂 Project Structure
 NetfreeProject/
@@ -19,14 +28,18 @@ NetfreeProject/
 │── index.html # Main homepage
 │── README.md # Project documentation
 
-markdown
+yaml
 Copy code
+
+---
 
 ## 🛠️ Technologies Used
 - HTML5 – Website structure and semantic content  
 - CSS3 – Styling, layout, typography, and responsive design  
 - Bootstrap Icons – Professional and lightweight icon library  
 - Git & GitHub – Version control, collaboration, and code management  
+
+---
 
 ## 🚀 Local Setup & Installation
 Clone the repository:
@@ -37,17 +50,7 @@ Open index.html in your preferred browser to view the website locally.
 
 🌍 Deployment
 This is a static website and has been deployed using Netlify.
-You can view the live website here: html5-netfree.netlify.app
-
-Deployment options for static sites include:
-
-GitHub Pages
-
-Netlify
-
-Vercel
-
-Once deployed, the website is publicly accessible online and updates automatically with GitHub pushes.
+Automatic deployment is configured from the GitHub repository, so every push updates the live website.
 
 🎯 Project Goals & Learning Outcomes
 Gain hands-on experience building HTML and CSS websites
@@ -57,3 +60,5 @@ Develop responsive layouts for mobile and desktop screens
 Practice integration of external libraries for icons and graphics
 
 Learn organized project structure and clean code management
+
+
