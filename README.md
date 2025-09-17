@@ -1,13 +1,13 @@
 # NetFreeProject – HTML & CSS Portfolio Project
 
-## 🌟 Live Demo
+##  Live Demo
 View the live website deployed on **Netlify**:  
 
 # **[https://html5-netfree.netlify.app](https://html5-netfree.netlify.app)**
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 NetfreeProject is a static website built to demonstrate practical skills in HTML5 and CSS3. The project showcases a clean and responsive design, proper folder organization, and integration of external libraries for enhanced user experience.
 
 The website features:  
@@ -18,7 +18,7 @@ The website features:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 NetfreeProject/
 │── .vscode/ # Visual Studio Code workspace settings
 │── bootstrap-icons/ # Bootstrap Icons library
@@ -33,7 +33,7 @@ Copy code
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - HTML5 – Website structure and semantic content  
 - CSS3 – Styling, layout, typography, and responsive design  
 - Bootstrap Icons – Professional and lightweight icon library  
@@ -41,18 +41,18 @@ Copy code
 
 ---
 
-## 🚀 Local Setup & Installation
+##  Local Setup & Installation
 Clone the repository:
 
 ```bash
 git clone https://github.com/Shevigit/HTML5.git
 Open index.html in your preferred browser to view the website locally.
 
-🌍 Deployment
+ Deployment
 This is a static website and has been deployed using Netlify.
 Automatic deployment is configured from the GitHub repository, so every push updates the live website.
 
-🎯 Project Goals & Learning Outcomes
+ Project Goals & Learning Outcomes
 Gain hands-on experience building HTML and CSS websites
 
 Develop responsive layouts for mobile and desktop screens
