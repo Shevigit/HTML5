@@ -1,9 +1,5 @@
 # NetFreeProject – HTML & CSS Portfolio Project
 
-##  Live Demo
-View the live website deployed on **Netlify**:  
-
-# **[https://html5-netfree.netlify.app](https://html5-netfree.netlify.app)**
 
 ---
 
